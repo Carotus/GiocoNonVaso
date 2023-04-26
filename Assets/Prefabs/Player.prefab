@@ -395,7 +395,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   grabPoint: {fileID: 9065067592093245633}
-  rayPoint: {fileID: 9065067592093245633}
+  rayPoint: {fileID: 397855807234071066}
   rayDistance: 0.2
 --- !u!114 &5128816371066261469
 MonoBehaviour:
@@ -694,7 +694,7 @@ Transform:
   m_GameObject: {fileID: 8575637353221977909}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.43, y: 0, z: 0}
-  m_LocalScale: {x: 13.976999, y: 13.976999, z: 13.976999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9065067592093245633}
@@ -741,7 +741,7 @@ SpriteRenderer:
   m_SortingLayerID: -1663738631
   m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9a5eaa979d16aca4a8b54fa623ae264c, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -759,7 +759,7 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8575637353221977909}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 0}
   m_Animations:
@@ -776,7 +776,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8575637353221977909}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 14d834f07d6fd4941a5fbc8fbda705e3, type: 2}
   m_CullingMode: 0
