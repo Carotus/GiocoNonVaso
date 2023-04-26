@@ -29,7 +29,7 @@ public class grab : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Debug.Log("Click here mtfck!!!");
-            RaycastHit2D hitInfo = Physics2D.Raycast(rayPoint.position, rayPoint.transform.right, rayDistance, LayerHit);
+            RaycastHit2D hitInfo = Physics2D.Raycast(rayPoint.position, rayPoint.transform.forward, rayDistance, LayerHit);
             if (hitInfo.collider != null)
             {
                 Debug.Log("hit object " + hitInfo.collider.gameObject.layer);
@@ -40,20 +40,22 @@ public class grab : MonoBehaviour
                     if (rb2d != null)
                     {
                         rb2d.isKinematic = true;
+                        rb2d.simulated = false;
                         grabbedObject.transform.position = grabPoint.position;
                         grabbedObject.transform.SetParent(grabPoint.transform);
                     }
                 }
-                else
+            } else if(grabbedObject != null)
+            {
+                var rb2d = grabbedObject.GetComponent<Rigidbody2D>();
+                if (rb2d != null)
                 {
-                    var rb2d = grabbedObject.GetComponent<Rigidbody2D>();
-                    if (rb2d != null)
-                    {
-                        rb2d.isKinematic = false;
-                        grabbedObject.transform.parent = null;
-                    }
-                    grabbedObject = null;
+                    Debug.Log("release obj");
+                    rb2d.isKinematic = false;
+                    rb2d.simulated = true;
+                    grabbedObject.transform.parent = null;
                 }
+                grabbedObject = null;
             }
         }
     }
