@@ -195,7 +195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5128816371066261451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60.8, y: 0.26, z: 0}
+  m_LocalPosition: {x: 28.7, y: 6.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -629,7 +629,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -665,7 +665,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &5128816371660127134
 GameObject:
   m_ObjectHideFlags: 0
