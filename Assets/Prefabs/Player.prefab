@@ -394,8 +394,8 @@ MonoBehaviour:
   LayerHit:
     serializedVersion: 2
     m_Bits: 64
-  grabPoint: {fileID: 0}
-  rayPoint: {fileID: 0}
+  grabPoint: {fileID: 9065067592093245633}
+  rayPoint: {fileID: 9065067592093245633}
   rayDistance: 0.2
 --- !u!114 &5128816371066261469
 MonoBehaviour:
