@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3747a9a8e60d6c649a92be1ee2047014
+guid: b36abd93788d8e14685abdee97a36393
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +68,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: run_cycle_48x48_0
+      name: focolarecasa_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2f4b0e21a86d3d4fb7735fca56cf703
-      internalID: -1601132972
+      spriteID: c983cacec5d3b744692145fbd2480b38
+      internalID: 729368579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_cycle_48x48_1
+      name: focolarecasa_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41d100cd15e93234f8490ae2abe9075e
-      internalID: 38833276
+      spriteID: 77d01e2cb739fc145b1bec81c244b4b5
+      internalID: 147314029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_cycle_48x48_2
+      name: focolarecasa_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee369e0875a89147ba96b872f929b1f
+      internalID: 153035241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: focolarecasa_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56fec3f8bf02cad4489524832a0ef0e6
-      internalID: 395992508
+      spriteID: 0fb9f9d401934bc4d83a0e13559b7221
+      internalID: -2001236836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_cycle_48x48_3
+      name: focolarecasa_4
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +203,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9627f2e84d8b2a54bbcf8498f7a6cfe4
-      internalID: -1582116159
+      spriteID: e537dba3eb2ab9b4e8d1611f805014a5
+      internalID: 921260182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_cycle_48x48_4
+      name: focolarecasa_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300abcf339d40e24885d3e74249f0777
+      internalID: 1488817534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: focolarecasa_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d79fc5bf8fa40c46a881d0d2f39afc9
-      internalID: -559817708
+      spriteID: e6556ea54b74c084baac36dfad9eae44
+      internalID: -1227033209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_cycle_48x48_5
+      name: focolarecasa_7
       rect:
         serializedVersion: 2
-        x: 240
+        x: 224
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,50 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12e3de4a6a1c7f549a9e6f34d25d9e21
-      internalID: 1639693763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: run_cycle_48x48_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d2bcaa63b52acd4bbbf6a148f312c3d
-      internalID: 485038261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: run_cycle_48x48_7
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0df19d860625e8e40a0e5743cb6ede1b
-      internalID: 1342219500
+      spriteID: 23c0217daef45574cab03ad585c6f0d8
+      internalID: -2126707068
       vertices: []
       indices: 
       edges: []
@@ -283,14 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      run_cycle_48x48_3: -1582116159
-      run_cycle_48x48_7: 1342219500
-      run_cycle_48x48_4: -559817708
-      run_cycle_48x48_1: 38833276
-      run_cycle_48x48_6: 485038261
-      run_cycle_48x48_2: 395992508
-      run_cycle_48x48_0: -1601132972
-      run_cycle_48x48_5: 1639693763
+      focolarecasa_1: 147314029
+      focolarecasa_0: 729368579
+      focolarecasa_4: 921260182
+      focolarecasa_3: -2001236836
+      focolarecasa_2: 153035241
+      focolarecasa_7: -2126707068
+      focolarecasa_5: 1488817534
+      focolarecasa_6: -1227033209
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
