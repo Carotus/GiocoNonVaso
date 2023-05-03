@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f08b6e64cb775bf43bd5994db96e5fbb
+guid: 406fd03dd4af5fd46aa4301e4c6eeac6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 10
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Crouch-IdleColoredSpriteSheet_48x48_0
+      name: player_crouch-walk_colored_48x48_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a911fbbf253a3194eaa558f69318c9af
-      internalID: -612267409
+      spriteID: dd1729a0b1e4db94894265d64d2327ad
+      internalID: 174488046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Crouch-IdleColoredSpriteSheet_48x48_1
+      name: player_crouch-walk_colored_48x48_1
       rect:
         serializedVersion: 2
         x: 48
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a62e9b556aba2384489dc7dfb540bd62
-      internalID: -1600973077
+      spriteID: c5adaa83e4171cc4095d12f34de574d1
+      internalID: -356704714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Crouch-IdleColoredSpriteSheet_48x48_2
+      name: player_crouch-walk_colored_48x48_2
       rect:
         serializedVersion: 2
         x: 96
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c9a2fdf721e48a48ad92693418af8a7
-      internalID: 1155059676
+      spriteID: 7d9637db7b1b768468953d79226744d7
+      internalID: 1149234816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Crouch-IdleColoredSpriteSheet_48x48_3
+      name: player_crouch-walk_colored_48x48_3
       rect:
         serializedVersion: 2
         x: 144
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb9fd9b651b39c04da459edda79397c0
-      internalID: 70913714
+      spriteID: e42a855652480964b89e00471b7ecf7c
+      internalID: -538445763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Crouch-IdleColoredSpriteSheet_48x48_4
+      name: player_crouch-walk_colored_48x48_4
       rect:
         serializedVersion: 2
         x: 192
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dba187b1a88bcd48b33843277b861ba
-      internalID: -1387428296
+      spriteID: 41d9fea72cd95c743ad5b21eed65aa01
+      internalID: -719226985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Crouch-IdleColoredSpriteSheet_48x48_5
+      name: player_crouch-walk_colored_48x48_5
       rect:
         serializedVersion: 2
         x: 240
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb53be87f089e5d43b6008202a8943f3
-      internalID: -1864704820
+      spriteID: 4ae5cd7ab41f57e4aba848226ef77b1c
+      internalID: -906425613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Crouch-IdleColoredSpriteSheet_48x48_6
+      name: player_crouch-walk_colored_48x48_6
       rect:
         serializedVersion: 2
         x: 288
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c84b9e36e1bc5045b81ac09643c6673
-      internalID: 179827477
+      spriteID: 60008bd7dd17d9a4eaf1468fedaeab5c
+      internalID: -418384677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Crouch-IdleColoredSpriteSheet_48x48_7
+      name: player_crouch-walk_colored_48x48_7
       rect:
         serializedVersion: 2
         x: 336
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e871cb29a43a4f429beae21b213771a
-      internalID: 1387559972
+      spriteID: 950d2644e8fe0c047ad522d2ca604069
+      internalID: -990492252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Crouch-IdleColoredSpriteSheet_48x48_8
+      name: player_crouch-walk_colored_48x48_8
       rect:
         serializedVersion: 2
         x: 384
@@ -287,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1631508a6930df94d9c45583c394e71a
-      internalID: 1578356486
+      spriteID: 69f7eacb686c3f842a7d3662431dc37f
+      internalID: -613780762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Crouch-IdleColoredSpriteSheet_48x48_9
+      name: player_crouch-walk_colored_48x48_9
       rect:
         serializedVersion: 2
         x: 432
@@ -308,8 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89a0dcdf43f62b6428515546a3873082
-      internalID: -1002185924
+      spriteID: 33e940dd57ab9e540a2129ca687a151b
+      internalID: 146420756
       vertices: []
       indices: 
       edges: []
@@ -325,16 +325,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player_Crouch-IdleColoredSpriteSheet_48x48_7: 1387559972
-      Player_Crouch-IdleColoredSpriteSheet_48x48_3: 70913714
-      Player_Crouch-IdleColoredSpriteSheet_48x48_6: 179827477
-      Player_Crouch-IdleColoredSpriteSheet_48x48_1: -1600973077
-      Player_Crouch-IdleColoredSpriteSheet_48x48_5: -1864704820
-      Player_Crouch-IdleColoredSpriteSheet_48x48_0: -612267409
-      Player_Crouch-IdleColoredSpriteSheet_48x48_9: -1002185924
-      Player_Crouch-IdleColoredSpriteSheet_48x48_8: 1578356486
-      Player_Crouch-IdleColoredSpriteSheet_48x48_2: 1155059676
-      Player_Crouch-IdleColoredSpriteSheet_48x48_4: -1387428296
+      player_crouch-walk_colored_48x48_2: 1149234816
+      player_crouch-walk_colored_48x48_4: -719226985
+      player_crouch-walk_colored_48x48_3: -538445763
+      player_crouch-walk_colored_48x48_8: -613780762
+      player_crouch-walk_colored_48x48_9: 146420756
+      player_crouch-walk_colored_48x48_1: -356704714
+      player_crouch-walk_colored_48x48_5: -906425613
+      player_crouch-walk_colored_48x48_6: -418384677
+      player_crouch-walk_colored_48x48_7: -990492252
+      player_crouch-walk_colored_48x48_0: 174488046
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
