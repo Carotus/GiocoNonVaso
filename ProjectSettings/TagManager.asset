@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Ground
+  - DeadZone
+  - RespawnPoint
   layers:
   - Default
   - TransparentFX
