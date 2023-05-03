@@ -3002,7 +3002,7 @@ GameObject:
   - component: {fileID: 320699205}
   - component: {fileID: 320699204}
   - component: {fileID: 320699207}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tetris 80x60
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -17070,7 +17070,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1416701850560203379, guid: 6a876c1615c07aa47a84b5597f0fa0d3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5128816369580366421, guid: 6a876c1615c07aa47a84b5597f0fa0d3, type: 3}
       propertyPath: m_IsActive
