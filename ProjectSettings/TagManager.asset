@@ -9,6 +9,7 @@ TagManager:
   - DeadZone
   - RespawnPoint
   - CrouchSpot
+  - Grabbable
   layers:
   - Default
   - TransparentFX
