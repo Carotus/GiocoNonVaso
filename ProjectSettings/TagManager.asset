@@ -9,6 +9,7 @@ TagManager:
   - DeadZone
   - RespawnPoint
   - CrouchSpot
+  - MapEdge
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - UI
   - objects
   - Pull
-  - 
+  - AleTroia
   - 
   - 
   - 
