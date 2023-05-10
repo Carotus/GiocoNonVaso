@@ -3320,6 +3320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RespawnPoint
       objectReference: {fileID: 0}
+    - target: {fileID: 8149568364421135683, guid: be34f183fc06f424b94058f55be42f6b, type: 3}
+      propertyPath: m_TagString
+      value: RespawnPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 8149568364421135684, guid: be34f183fc06f424b94058f55be42f6b, type: 3}
       propertyPath: m_Size.y
       value: 5.2919364
@@ -3791,6 +3795,8 @@ GameObject:
   - component: {fileID: 310651552}
   - component: {fileID: 310651554}
   - component: {fileID: 310651555}
+  - component: {fileID: 310651557}
+  - component: {fileID: 310651556}
   m_Layer: 7
   m_Name: Pushable_Tile_35x52_1
   m_TagString: Ground
@@ -3859,7 +3865,7 @@ Transform:
   m_GameObject: {fileID: 310651551}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 208.5, y: 24.8, z: 0}
-  m_LocalScale: {x: 10, y: 8, z: 1}
+  m_LocalScale: {x: 5, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2005802847}
@@ -3880,7 +3886,7 @@ Rigidbody2D:
   m_Mass: 20
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3912,6 +3918,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.52, y: 0.35}
   m_EdgeRadius: 0
+--- !u!114 &310651556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310651551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 79ad335b94dacb2409f075c569ca7ab8, type: 2}
+--- !u!114 &310651557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310651551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &311382195
 GameObject:
   m_ObjectHideFlags: 0
@@ -4040,6 +4077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RespawnPoint (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8149568364421135683, guid: be34f183fc06f424b94058f55be42f6b, type: 3}
+      propertyPath: m_TagString
+      value: RespawnPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 8149568364421135684, guid: be34f183fc06f424b94058f55be42f6b, type: 3}
       propertyPath: m_Size.y
       value: 5.2919364
@@ -4163,7 +4204,7 @@ Transform:
   m_GameObject: {fileID: 372543455}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5, y: -6.6, z: 0.3209957}
-  m_LocalScale: {x: 10, y: 8, z: 1}
+  m_LocalScale: {x: 5, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1137444684}
@@ -5700,7 +5741,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443801443}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 291.94, y: 2.57, z: -96.286224}
+  m_LocalPosition: {x: 288.2, y: 2.57, z: -96.286224}
   m_LocalScale: {x: 21.9375, y: 2, z: 6.1102777}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9349,13 +9390,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: triggerCanvas (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 893492414274829740, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
+      propertyPath: m_TagString
+      value: RespawnPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 1586828447564190891, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1586828447564190891, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 1586828447564190891, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
       propertyPath: m_LocalScale.y
@@ -9367,7 +9412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1586828447564190891, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 162.38
+      value: 159.23
       objectReference: {fileID: 0}
     - target: {fileID: 1586828447564190891, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14755,6 +14800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: triggerCanvas (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 893492414274829740, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
+      propertyPath: m_TagString
+      value: RespawnPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 1586828447564190891, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -17820,6 +17869,10 @@ PrefabInstance:
     - target: {fileID: 893492414274829740, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
       propertyPath: m_Name
       value: triggerCanvas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 893492414274829740, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
+      propertyPath: m_TagString
+      value: RespawnPoint
       objectReference: {fileID: 0}
     - target: {fileID: 1586828447564190891, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
       propertyPath: m_RootOrder
@@ -24620,6 +24673,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3114636647282561285, guid: 558b2f0297893454ab7e4578b0bc845b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.92
+      objectReference: {fileID: 0}
     - target: {fileID: 3933764851219673418, guid: 558b2f0297893454ab7e4578b0bc845b, type: 3}
       propertyPath: m_LocalScale.x
       value: 15
@@ -30165,6 +30222,10 @@ PrefabInstance:
     - target: {fileID: 893492414274829740, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
       propertyPath: m_Name
       value: triggerCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 893492414274829740, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
+      propertyPath: m_TagString
+      value: RespawnPoint
       objectReference: {fileID: 0}
     - target: {fileID: 1586828447564190891, guid: 4fea8bc29b9b4ad4694ee9f4ea712bff, type: 3}
       propertyPath: m_RootOrder
