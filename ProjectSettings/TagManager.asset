@@ -10,6 +10,7 @@ TagManager:
   - RespawnPoint
   - CrouchSpot
   - MapEdge
+  - ResetPush
   layers:
   - Default
   - TransparentFX
