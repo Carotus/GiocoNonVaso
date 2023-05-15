@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 2a8dd84ae56b7b64a94b82066469658c
   - enabled: 1
-    path: Assets/Scenes/LVL2.unity
-    guid: 3176f02ab8bf76f4b8b1e4429cc9a378
+    path: Assets/Scenes/Level2.unity
+    guid: 70471ea6ce887764db5524e3e8b2c369
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 669b292a9d8302b41b3d4438f72dc7dd
+  - enabled: 1
+    path: Assets/Scenes/Titoli di Coda.unity
+    guid: f4545a71cb295f1409ac8bb56c68674f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

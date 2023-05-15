@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("tutorialMappa");
+        SceneManager.LoadScene("Tutorial");
 
     }
 }
