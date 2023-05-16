@@ -11,6 +11,7 @@ TagManager:
   - CrouchSpot
   - MapEdge
   - ResetPush
+  - EasterEgg
   layers:
   - Default
   - TransparentFX
