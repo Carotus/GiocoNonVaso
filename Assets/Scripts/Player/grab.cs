@@ -17,7 +17,8 @@ public class grab : MonoBehaviour
     private float rayDistance;
 
     private GameObject grabbedObject;
-
+    public float rotationSpeed = 10f;
+    public KeyCode rotateKey = KeyCode.R;
 
     void Start()
     {
@@ -45,6 +46,11 @@ public class grab : MonoBehaviour
                         grabbedObject.transform.position = grabPoint.position;
                         grabbedObject.transform.SetParent(grabPoint.transform);
                         grabbedObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.5f);
+                        if (Input.GetKey(rotateKey))
+                        {
+                            float rotationAmount = rotationSpeed * Time.deltaTime;
+                            transform.Rotate(Vector3.up, rotationAmount);
+                        }
                     }
                 }
             } else if(grabbedObject != null)
