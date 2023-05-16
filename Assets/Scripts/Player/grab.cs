@@ -37,12 +37,14 @@ public class grab : MonoBehaviour
                 {
                     grabbedObject = hitInfo.collider.gameObject;
                     var rb2d = grabbedObject.GetComponent<Rigidbody2D>();
+                    
                     if (rb2d != null)
                     {
                         rb2d.isKinematic = true;
                         rb2d.simulated = false;
                         grabbedObject.transform.position = grabPoint.position;
                         grabbedObject.transform.SetParent(grabPoint.transform);
+                        grabbedObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.5f);
                     }
                 }
             } else if(grabbedObject != null)
@@ -54,6 +56,7 @@ public class grab : MonoBehaviour
                     rb2d.isKinematic = false;
                     rb2d.simulated = true;
                     grabbedObject.transform.parent = null;
+                    grabbedObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
                 }
                 grabbedObject = null;
             }
