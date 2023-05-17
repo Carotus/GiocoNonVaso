@@ -16,9 +16,13 @@ public class grab : MonoBehaviour
     [SerializeField]
     private float rayDistance;
 
-    private GameObject grabbedObject;
-    public float rotationSpeed = 10f;
-    public KeyCode rotateKey = KeyCode.R;
+    public Transform Belen;
+
+    public float RotationPerSecond = 90.0f;
+
+    [SerializeField] private GameObject grabbedObject;
+
+   
 
     void Start()
     {
@@ -26,10 +30,15 @@ public class grab : MonoBehaviour
 
     void Update()
     {
+        // rotate grabbed obj
+        if (Input.GetButton("Fire2"))
+        {
+            RotateGrabbedObject();
+        }
+
         //grab object
         if (Input.GetButtonDown("Fire1"))
         {
-            Debug.Log("Click here mtfck!!!");
             RaycastHit2D hitInfo = Physics2D.Raycast(rayPoint.position, rayPoint.transform.forward, rayDistance, LayerHit);
             if (hitInfo.collider != null)
             {
@@ -45,12 +54,7 @@ public class grab : MonoBehaviour
                         rb2d.simulated = false;
                         grabbedObject.transform.position = grabPoint.position;
                         grabbedObject.transform.SetParent(grabPoint.transform);
-                        grabbedObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.5f);
-                        if (Input.GetKey(rotateKey))
-                        {
-                            float rotationAmount = rotationSpeed * Time.deltaTime;
-                            transform.Rotate(Vector3.up, rotationAmount);
-                        }
+                        grabbedObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.5f);                        
                     }
                 }
             } else if(grabbedObject != null)
@@ -67,5 +71,13 @@ public class grab : MonoBehaviour
                 grabbedObject = null;
             }
         }
+    }
+
+    void RotateGrabbedObject()
+    {
+        if (grabbedObject != null)
+        {
+            grabbedObject.transform.Rotate(0, 0, RotationPerSecond * Time.deltaTime);
+        }        
     }
 }
