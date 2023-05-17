@@ -12,6 +12,7 @@ TagManager:
   - MapEdge
   - ResetPush
   - EasterEgg
+  - Grabbable
   layers:
   - Default
   - TransparentFX
