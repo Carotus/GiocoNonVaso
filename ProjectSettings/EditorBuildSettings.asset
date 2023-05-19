@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Titoli di Coda.unity
     guid: f4545a71cb295f1409ac8bb56c68674f
+  - enabled: 1
+    path: Assets/Scenes/Dorime.unity
+    guid: cf512f142e9d5d84fbbfc98ccb6263e6
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
