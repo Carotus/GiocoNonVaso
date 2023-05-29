@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1290,6 +1290,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &66517449 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8108708359945976090, guid: abe9f10135559fb4db6c092d5cc8c3ba, type: 3}
+  m_PrefabInstance: {fileID: 127707217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &66809336
 GameObject:
   m_ObjectHideFlags: 0
@@ -21082,12 +21087,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173797323}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 199.5, y: 27.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1173797327
 MonoBehaviour:
@@ -21134,7 +21139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee1e414615344da4f98e16d56c098829, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 66517449}
   smoothing: 0.1
   minPosition: {x: 8, y: 9}
   maxPosition: {x: 500, y: 100}
