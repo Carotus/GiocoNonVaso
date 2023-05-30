@@ -1045,7 +1045,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0001
+        actionIsOpen: 0101
         actionStartIndex: 0000000003000000
         actionHashCodes: e9f7330448c01101
         unityObjectParams: []
@@ -1147,7 +1147,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0001
+        actionIsOpen: 0101
         actionStartIndex: 0000000003000000
         actionHashCodes: e9f7330448c01101
         unityObjectParams: []
@@ -1236,7 +1236,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 4
+        toState: State 10
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -1275,9 +1275,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 'SPRITES
-
-            ANIMAZIONI:
+          value: 'SPRITES:
 
             Grey
 
@@ -1292,7 +1290,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 6
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -1328,8 +1326,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 736
-        y: 88
+        x: 956
+        y: 82
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1430,8 +1428,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 895
-        y: 83
+        x: 1118
+        y: 71
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1483,9 +1481,7 @@ MonoBehaviour:
           networkSync: 0
           value: 'SCRIPTS:
 
-            Alessio
-
-            Marco'
+            Carotus'
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1532,8 +1528,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1084
-        y: 78
+        x: 1272
+        y: 81
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1630,8 +1626,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1264
-        y: 81
+        x: 1412
+        y: 83
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1681,7 +1677,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: "Grazie \nper aver \ngiocato\n"
+          value: "Grazie \nper aver \ngiocato\n:)"
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1836,8 +1832,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1420
-        y: 83
+        x: 1577.6328
+        y: 76
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1919,6 +1915,108 @@ MonoBehaviour:
         - failureEvent
         paramDataPos: 00000000000000000000000000000000000000000000000001000000
         paramByteDataSize: 04000000000000000000000000000000000000000000000000000000
+    - name: State 10
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 744.8906
+        y: 87.50781
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 4
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.setTextmeshProText
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: e9f7330448c01101
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 'ANIMATOR:
+
+            Alessio
+
+'
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 6
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        byteData: 01
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000110000000f0000001700000001000000
+        paramName:
+        - gameObject
+        - textString
+        - everyFrame
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000000000000000000000000000000000000000000
+        paramByteDataSize: 000000000000000000000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1

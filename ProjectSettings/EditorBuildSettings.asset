@@ -16,14 +16,11 @@ EditorBuildSettings:
     guid: 70471ea6ce887764db5524e3e8b2c369
   - enabled: 1
     path: Assets/Scenes/Level3.unity
-    guid: 669b292a9d8302b41b3d4438f72dc7dd
+    guid: 10b5d9e775575384d9bd1814e96f94b8
   - enabled: 1
     path: Assets/Scenes/Titoli di Coda.unity
     guid: f4545a71cb295f1409ac8bb56c68674f
   - enabled: 1
     path: Assets/Scenes/Dorime.unity
     guid: cf512f142e9d5d84fbbfc98ccb6263e6
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}
